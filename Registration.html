@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <form action="server/">
+        <h1 id="reg">Registration Form</h1>
+        <p id="p">Fill out the form carefull for registration</p>
+        <div class="Name">
+            <label for="fname">Student Name</label><br>
+            <input type="text" placeholder="Write your first name here" name="name" id="fname">
+            <label for="mname"></label>
+            <input type="text" placeholder="Write your middle name here" name="name" id="mname">
+            <label for="lname"></label>
+            <input type="text" placeholder="Write your last name here" name="name" id="lname">
+        </div>
+        <div class="Bdate">
+            <label for="mdate">Birth Date</label><br>
+            <select name="Month" id="mdate">
+                <option value="">Please Select</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <label for="day"></label>
+            <select name="Day" id="day">
+                <option value="">Please select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <label for="year"></label>
+            <select name="year" id="year">
+                <option value="">Please Select</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+                <option value="2009">2009</option>
+                <option value="2008">2008</option>
+                <option value="2007">2007</option>
+                <option value="2006">2006</option>
+                <option value="2005">2005</option>
+                <option value="2004">3004</option>
+                <option value="2003">2003</option>
+                <option value="2002">2002</option>
+                <option value="2001">2001</option>
+                <option value="2000">2000</option>
+                <option value="1999">1999</option>
+                <option value="1998">1998</option>
+                <option value="1997">1997</option>
+            </select>
+
+            <label for="gen">Gender</label>
+            <select name="Gender" id="gen">
+                <option value="">Please Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <div class="add">
+            <label for="add">Address</label><br>
+            <input type="text" placeholder="Street Address" id="add" Name="Address">
+            <input type="text" placeholder="Street Address Line 2" Name="Line2 Address" id="add2">
+        </div>
+        <br>
+        <div>
+            <input type="text" placeholder="City" Name="city" id="city">
+            <input type="text" placeholder="State/Province" Name="state" id="state">
+        </div>
+        <div>
+            <input type="text" placeholder="Postal/Zip Code" Name="Postal" id="zip">
+        </div>
+        <br>
+        <div>
+            <label for="email">Student E-mail</label><br>
+            <input type="email" placeholder="ex:myname@example.com" Name="email" id="email">
+            <label for="mobile">Mobile Number</label>
+            <input type="text" placeholder="(000) 000-0000" id="mobile" Name="Mobile Number">
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone Number</label><br>
+            <input type="text" placeholder="(000) 000-0000" id="phone" Name="Phone Number">
+            <label for="work">Work Number</label>
+            <input type="text" name="work Number" id="work" placeholder="(000) 000-0000">
+        </div>
+        <div>
+            <label for="com">Company</label><br>
+            <input type="text" id="com" Name="Company">
+            <label for="course">Courses</label>
+            <select name="courses" id="course">
+                <option value="">Please Select</option>
+                <option value="BCA">BCA</option>
+                <option value="MCA">MCA</option>
+                <option value="Btach">Btach</option>
+                <option value="Mtach">Mtach</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="comments">Additional Comments</label><br>
+            <textarea type="text" placeholder="Give your Feedback" Name="Comments" id="comment>" rows="5"
+                cols="40"></textarea>
+        </div>
+        <br>
+        <button id="btn">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,249 @@
+
+body {
+   margin-top: 40px;
+   margin-left: 150px;
+   background-color: hsl(0, 0%, 95%);
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   transition-duration: 1s;
+}
+#reg {
+   margin-bottom: 5px;
+   font-size: 50px;
+}
+#p{
+   margin-top: 5px;
+   margin-left: 3px;
+}
+#fname{
+   border: solid lch(27.28% 0.9 19.29);
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+   margin-top: 10;
+}
+#fname:hover{
+   background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+#mname {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#mname:hover{
+   background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+
+#lname {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#lname:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+
+#mdate {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#mdate:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+
+#day {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#day:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+
+#year {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#year:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+
+#gen {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#gen:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+#add {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+
+}
+#add:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+
+#add2 {
+   border: solid lch(27.28% 0.9 19.29);
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#add2:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+
+#city {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#city:hover{
+    background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+#state {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#state:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+#zip {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#zip:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+#email {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#email:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+
+#mobile {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#mobile:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+#phone {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#phone:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+#work {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#work:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+#com {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#com:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+#course {
+   border: solid lch(27.28% 0.9 19.29);;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+#course:hover{
+     background-color: black;
+   transition-duration: 2s;
+   color:white;
+}
+#comments {
+   padding: 5px;
+   margin-bottom: 10px;
+}
+
+#btn {
+   background-color: hsl(120, 69%, 50%);
+   border: solid hsl(0, 1%, 32%);
+   border-radius: 50px;
+   padding: 10px 20px;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+}
+#btn:hover{
+   background-color: #139C99;
+   transition-duration: 1s;
+   color:white;
+   box-shadow: 0px 0px 5px black;
+}
+button:active{
+   background-color: yellow;
+}
